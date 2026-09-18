@@ -1,3 +1,4 @@
+import ThreatMap from "./components/ThreatMap";
 import DashboardPreview from "./components/DashboardPreview";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Features />
       <DashboardPreview />
+      <ThreatMap />
     </main>
   );
 }
